@@ -26,7 +26,7 @@ function generatoreGriglia(numeroCelle){
         cellaSelezionata.style.width = 'calc(100% / ${numeroCelle})';
         cellaSelezionata.addEventListener("click", function(){
             this.classList.toggle("bg-info");
-            console.log("hai cliccato" + i)
+            console.log("hai cliccato il " + i)
         })
 
         containerGriglia.append(cellaSelezionata);
