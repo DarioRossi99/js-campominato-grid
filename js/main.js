@@ -15,7 +15,7 @@ function generatoreGriglia(numeroCelle){
     const containerGriglia = document.querySelector(".grid-container");
     const celleTotali = numeroCelle * numeroCelle;
 
-    for (let i = 1; i < celleTotali; i++) {
+    for (let i = 1; i <= celleTotali; i++) {
         // containerGriglia.innerHTML += '<div class="grid-cell"></div>';
         // const cellaSelezionata = containerGriglia.querySelector(".grid—cell:last—child");
         // cellaSelezionata.addEventListener ("click")
